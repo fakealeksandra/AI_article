@@ -82,6 +82,7 @@ W środowiskach Continuous Integration i Continuous Delivery (CI/CD) AI może po
 Przykładowo, podczas testowania interfejsów REST API modele AI mogą analizować specyfikacje OpenAPI i automatycznie generować zestawy przypadków testowych obejmujących zarówno scenariusze pozytywne, jak i negatywne.
 
 W przyszłości możliwe będzie wykorzystanie Agentic AI do samodzielnego uruchamiania testów regresyjnych, analizy wyników oraz tworzenia zgłoszeń błędów bez bezpośredniego udziału człowieka. Takie podejście może znacząco skrócić czas potrzebny na weryfikację jakości oprogramowania.
+Pierwsze rozwiązania wykorzystujące Agentic AI są już dostępne na rynku. Przykładowo GitHub Copilot Coding Agent potrafi realizować zadania programistyczne, uruchamiać testy oraz przygotowywać propozycje zmian w formie Pull Requestów. Z kolei GitLab Duo Agent Platform rozwija koncepcję współpracujących agentów AI wspierających proces wytwarzania oprogramowania, w tym testowanie i analizę wyników. Można oczekiwać, że w kolejnych latach narzędzia te będą oferowały coraz większy poziom autonomii, obejmując pełne wykonywanie testów regresyjnych oraz automatyczne tworzenie zgłoszeń błędów.
 ---
 
 ## 4. Transformacja bezpieczeństwa kodu dzięki AI
@@ -100,7 +101,7 @@ Coraz częściej spotykane są narzędzia automatycznie przygotowujące Pull Req
 
 ### AI a analiza kodu statycznego
 
-Nowoczesne narzędzia bezpieczeństwa coraz częściej łączą klasyczną analizę statyczną (SAST) z modelami sztucznej inteligencji. Pozwala to wykrywać nie tylko znane wzorce podatności, ale również bardziej złożone problemy logiczne trudne do identyfikacji za pomocą tradycyjnych reguł.
+Nowoczesne narzędzia bezpieczeństwa coraz częściej łączą klasyczną analizę statyczną (Static Application Security Testing, SAST) z modelami sztucznej inteligencji. Pozwala to wykrywać nie tylko znane wzorce podatności, ale również bardziej złożone problemy logiczne trudne do identyfikacji za pomocą tradycyjnych reguł.
 
 AI może analizować zależności między modułami aplikacji, wskazywać potencjalne miejsca występowania podatności typu SQL Injection, Cross-Site Scripting (XSS) czy błędów autoryzacji oraz proponować bezpieczniejsze implementacje.
 
