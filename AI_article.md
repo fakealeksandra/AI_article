@@ -66,7 +66,22 @@ Najważniejsze korzyści:
 AI znajduje zastosowanie również w testowaniu oprogramowania. Narzędzia generatywne pomagają tworzyć scenariusze testowe, analizować logi oraz identyfikować potencjalne przyczyny awarii systemów.
 
 Należy jednak pamiętać, że wygenerowany kod powinien być zawsze weryfikowany przez człowieka, ponieważ AI może popełniać błędy logiczne lub generować nieoptymalne rozwiązania.
+---
+## 3.1 AI w automatyzacji testów oprogramowania
 
+Coraz większą rolę sztuczna inteligencja odgrywa również w procesie testowania aplikacji. Narzędzia oparte na modelach językowych są wykorzystywane do generowania przypadków testowych, analizy logów oraz wspierania diagnostyki błędów.
+
+W środowiskach Continuous Integration i Continuous Delivery (CI/CD) AI może pomagać w:
+
+- generowaniu testów jednostkowych na podstawie kodu źródłowego,
+- tworzeniu scenariuszy testów API,
+- analizie wyników nieudanych testów,
+- wykrywaniu niestabilnych testów (flaky tests),
+- sugerowaniu potencjalnych przyczyn awarii.
+
+Przykładowo, podczas testowania interfejsów REST API modele AI mogą analizować specyfikacje OpenAPI i automatycznie generować zestawy przypadków testowych obejmujących zarówno scenariusze pozytywne, jak i negatywne.
+
+W przyszłości możliwe będzie wykorzystanie Agentic AI do samodzielnego uruchamiania testów regresyjnych, analizy wyników oraz tworzenia zgłoszeń błędów bez bezpośredniego udziału człowieka. Takie podejście może znacząco skrócić czas potrzebny na weryfikację jakości oprogramowania.
 ---
 
 ## 4. Transformacja bezpieczeństwa kodu dzięki AI
@@ -82,6 +97,16 @@ Nowoczesne rozwiązania wykorzystują AI do:
 - wspierania procesów DevSecOps.
 
 Coraz częściej spotykane są narzędzia automatycznie przygotowujące Pull Request zawierający poprawkę wykrytej podatności. Pozwala to znacząco skrócić czas potrzebny na usunięcie problemu.
+
+### AI a analiza kodu statycznego
+
+Nowoczesne narzędzia bezpieczeństwa coraz częściej łączą klasyczną analizę statyczną (SAST) z modelami sztucznej inteligencji. Pozwala to wykrywać nie tylko znane wzorce podatności, ale również bardziej złożone problemy logiczne trudne do identyfikacji za pomocą tradycyjnych reguł.
+
+AI może analizować zależności między modułami aplikacji, wskazywać potencjalne miejsca występowania podatności typu SQL Injection, Cross-Site Scripting (XSS) czy błędów autoryzacji oraz proponować bezpieczniejsze implementacje.
+
+Dodatkowo rozwiązania wykorzystujące AI potrafią priorytetyzować wykryte podatności. Zamiast prezentować programistom setki potencjalnych problemów, system może wskazać te, które mają największy wpływ na bezpieczeństwo aplikacji i powinny zostać naprawione w pierwszej kolejności.
+
+Takie podejście pozwala zespołom szybciej reagować na zagrożenia oraz efektywniej zarządzać procesem usuwania błędów bezpieczeństwa.
 
 ---
 
