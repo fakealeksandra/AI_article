@@ -66,6 +66,7 @@ Najważniejsze korzyści:
 AI znajduje zastosowanie również w testowaniu oprogramowania. Narzędzia generatywne pomagają tworzyć scenariusze testowe, analizować logi oraz identyfikować potencjalne przyczyny awarii systemów.
 
 Należy jednak pamiętać, że wygenerowany kod powinien być zawsze weryfikowany przez człowieka, ponieważ AI może popełniać błędy logiczne lub generować nieoptymalne rozwiązania.
+
 ---
 ## 3.1 AI w automatyzacji testów oprogramowania
 
